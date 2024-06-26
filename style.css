@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.background {
+    background-color: #dde816;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.title {
+    color: rgb(21, 2, 2);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2m%;
+}
+
+.display {
+    color:green;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid rgba(6, 5, 00,0.9);
+    min-width: 10px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color:brown;
+}
+
+.playerO {
+    color:navy;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #ce499b;
+}
+
+#reset {
+    background-color: #4fff38;
+}
